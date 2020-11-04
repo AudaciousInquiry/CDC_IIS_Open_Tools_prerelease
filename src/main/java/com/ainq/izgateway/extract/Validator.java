@@ -498,6 +498,11 @@ public class Validator implements Iterator<CVRSExtract>, Closeable {
 
     /** The most recent read extract */
     private CVRSExtract currentExtract = null;
+    
+    public CVRSExtract getCurrentCVRSExtract()
+    {
+      return currentExtract;
+    }
 
     /** Errors associated with the most recent extract */
     private List<CVRSEntry> errors = null;
