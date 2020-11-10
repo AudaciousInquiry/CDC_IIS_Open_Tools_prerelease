@@ -1,0 +1,1 @@
+java -classpath ..\..\..\target\extract-validator.jar;..\..\..\target\lib\* com.ainq.izgateway.extract.Validator %1 -v2 
