@@ -1,3 +1,9 @@
+# Release Notes for 1.0.1-JDK8
+This is a patch of the Validator only to support DCH requirements for conversion to use JDK-8.  Future releases
+will also compile and build for JDK-8.
+
+This release does not contain Sender or Mock tools.
+
 # Release Notes for 1.0.1
 This is a patch to fix a bug found after release which threw exceptions
 on incorrectly formatted dates.
